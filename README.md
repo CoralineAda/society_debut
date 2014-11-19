@@ -20,22 +20,22 @@ Or install it yourself as:
 
 In `foo.html.erb`:
 
-      <head>
-        <style>@import url(path_to_asset_directory/society.css)</style>
-        .
-        .
-      </head>
-      <body>
-        .
-        .
-        <script src="path_to_asset_directory/society.js" />
-      </body>
+    <head>
+      <style>@import url(path/to/assets/society.css)</style>
+      .
+      .
+    </head>
+    <body>
+      .
+      .
+      <script src="path/to/assets/society.js" />
+    </body>
 
-In `path_to_asset_directory/society.css.erb`:
+In `path/to/assets/society.css.erb`:
 
-      <%= SocietyDebut::Assets.css %>
+    <%= SocietyDebut::Assets.css %>
 
-In `path_to_asset_directory/society.js.erb`:
+In `path/to/assets/society.js.erb`:
 
     <%= SocietyDebut::Assets.javascript %></script>
 
